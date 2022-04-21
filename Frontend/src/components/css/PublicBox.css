@@ -1,0 +1,31 @@
+.publicBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgray;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 700px;
+}
+
+.publicBox:hover {
+  border: 1px solid rgb(175, 175, 175);
+}
+
+.publicBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.publicBox__info > h5 {
+  color: rgb(129, 129, 129);
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.publicBox__public {
+  display: flex;
+  margin-top: 8px;
+}
